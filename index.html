@@ -17,11 +17,11 @@
 
   
   <link rel="alternate" hreflang="en-us" href="http://stevenputtemans.github.io/">
-  <script async defer
+  <script 
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYwlFXBj9SuBq4qeRfY8YuaW4jzGyrUeI&callback=initMap&libraries=&v=weekly"
-      defer
+      async defer
     ></script>
-    <!-- <style type="text/css">
+    <style type="text/css">
       /* Set the size of the div element that contains the map */
       #map {
         height: 400px;
@@ -29,12 +29,12 @@
         width: 100%;
         /* The width is the width of the web page */
       }
-    </style> -->
+    </style>
     <script>
       // Initialize and add the map
       function initMap() {
         // The location of Uluru
-        const uluru = { lat: 1.34500, lng: 103.68022 };
+        const uluru = { lat: -25.344, lng: 131.036 };
         // The map, centered at Uluru
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 4,
