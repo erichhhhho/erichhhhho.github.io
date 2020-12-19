@@ -21,7 +21,7 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYwlFXBj9SuBq4qeRfY8YuaW4jzGyrUeI&callback=initMap&libraries=&v=weekly"
       defer
     ></script>
-    <style type="text/css">
+    <!-- <style type="text/css">
       /* Set the size of the div element that contains the map */
       #map {
         height: 400px;
@@ -29,12 +29,12 @@
         width: 100%;
         /* The width is the width of the web page */
       }
-    </style>
+    </style> -->
     <script>
       // Initialize and add the map
       function initMap() {
         // The location of Uluru
-        const uluru = { lat: 1.3450052478893146, lng: 103.6802277875926 };
+        const uluru = { lat: 1.34500, lng: 103.68022 };
         // The map, centered at Uluru
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 4,
